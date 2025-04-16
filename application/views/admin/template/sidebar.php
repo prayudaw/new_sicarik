@@ -15,7 +15,7 @@
                     <h4 class="text-section">Report</h4>
                 </li>
                 <li class="nav-item ">
-                    <a href="<?php echo base_url() ?>dashboard/buku">
+                    <a href="<?php echo base_url() ?>admin/pengunjung">
                         <i class="fas fa-file-excel"></i>
                         <p>Pengunjung</p>
                     </a>
