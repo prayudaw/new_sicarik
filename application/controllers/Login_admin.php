@@ -21,7 +21,7 @@ class login_admin extends BaseController
     public function auth()
     {
         $post = $this->input->post();
-        $username = preg_replace('/\s+/', '', $post['username']);
+        $username = strtolower(preg_replace('/\s+/', '', $post['username']));
         $pass = preg_replace('/\s+/', '', $post['password']);
 
 
