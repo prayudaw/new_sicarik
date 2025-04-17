@@ -9,8 +9,8 @@ class Pengunjung extends BaseController
     {
         parent::__construct();
         $this->load->model('log_pengunjung_model');
-        // $this->isLoggedIn();
-        // $this->loginCheck();
+        $this->isLoggedIn();
+        $this->loginCheck();
     }
 
     public function index()

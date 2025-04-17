@@ -16,19 +16,10 @@
                 <ul class="dropdown-menu dropdown-user animated fadeIn">
                     <div class="dropdown-user-scroll scrollbar-outer">
                         <li>
-                            <div class="user-box">
-                                <div class="avatar-lg"><img src="<?php echo $img ?>" alt="image profile" class="avatar-img rounded"></div>
-                                <div class="u-text">
-                                    <h4></h4>
-                                    <p class="text-muted"></p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">My Profile</a>
-                            <a class="dropdown-item" id="logout">Logout</a>
-                            <!-- <a class="dropdown-item" href="<?php echo base_url() ?>login/logout">Logout</a> -->
+                            <!-- <a class="dropdown-item" href="#">My Profile</a> -->
+                            <!-- <a class="dropdown-item" id="logout">Logout</a> -->
+                            <a class="dropdown-item" href="<?php echo base_url() ?>login_admin/logout">Logout</a>
                         </li>
                     </div>
                 </ul>
