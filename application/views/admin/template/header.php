@@ -16,7 +16,9 @@
                 "families": ["Lato:300,400,700,900"]
             },
             custom: {
-                "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands", "simple-line-icons"],
+                "families": ["Flaticon", "Font Awesome 5 Solid", "Font Awesome 5 Regular", "Font Awesome 5 Brands",
+                    "simple-line-icons"
+                ],
                 urls: ['<?php echo base_url() ?>assets/css/fonts.min.css']
             },
             active: function() {
@@ -39,10 +41,14 @@
             <!-- Logo Header -->
             <div class="logo-header" data-background-color="blue">
 
-                <a href="<?php echo base_url() ?>dashboard" class="logo">
-                    <img src="<?php echo base_url() ?>assets/img/perpus/logo-perpus.png" alt="navbar brand" class="navbar-brand" style="width:50px;"> <span style="font-size:20px;color:white;font-weight:bold"><strong style="color:#FBC02D;">SI</strong>CARIK</span>
+                <a href="<?php echo base_url() ?>admin/home" class="logo">
+                    <img src="<?php echo base_url() ?>assets/img/perpus/logo-perpus.png" alt="navbar brand"
+                        class="navbar-brand" style="width:50px;"> <span
+                        style="font-size:20px;color:white;font-weight:bold"><strong
+                            style="color:#FBC02D;">SI</strong>CARIK</span>
                 </a>
-                <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
+                    data-target="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">
                         <i class="icon-menu"></i>
                     </span>

@@ -3,7 +3,7 @@
         <div class="sidebar-content">
             <ul class="nav nav-primary">
                 <li class="nav-item">
-                    <a href="<?php echo base_url() ?>dashboard/dashboard" aria-expanded="false">
+                    <a href="<?php echo base_url() ?>admin/home" aria-expanded="false">
                         <i class="fas fa-home"></i>
                         <p>Dashboard</p>
                     </a>
